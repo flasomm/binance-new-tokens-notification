@@ -1,0 +1,27 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "ignorePatterns": ["node_modules/"],
+  "plugins": ["prettier"],
+  "rules": {
+    "eqeqeq": "error",
+    "no-else-return": "error",
+    "no-return-await": "error",
+    "no-useless-return": "warn",
+    "prettier/prettier": "error",
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true }],
+    "max-depth": [2, 3],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ]
+  }
+}

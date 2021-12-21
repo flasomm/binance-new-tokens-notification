@@ -19,6 +19,10 @@
   "homepage": "https://github.com/flasomm/binance-new-tokens-notification#readme",
   "dependencies": {
     "axios": "^0.24.0",
-    "cheerio": "^1.0.0-rc.10"
+    "cheerio": "^1.0.0-rc.10",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0"
   }
 }
