@@ -1,0 +1,8 @@
+{
+  "email": {
+    "auth": {
+      "username": "<your_email>",
+      "password": "<your_password>"
+    }
+  }
+}
