@@ -1,6 +1,6 @@
 const { crawlUrl } = require('./lib/scraper');
 const { getListing } = require('./lib/get-listing');
-const { sendEmail } = require('./lib/email');
+const { sendEmail } = require('./lib/mailer');
 
 const BINANCE_NEW_CRYPTO_LISTING_URL = 'https://www.binance.com/en/support/announcement/c-48';
 

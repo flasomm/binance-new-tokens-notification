@@ -1,5 +1,8 @@
 {
   "email": {
+    "from_text": "<your_email_from_text>",
+    "from": "<email_from>",
+    "to": "<your_email>",
     "auth": {
       "username": "<your_email>",
       "password": "<your_password>"

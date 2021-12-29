@@ -1,8 +1,5 @@
 {
   "email": {
-    "from_text": "Fabrice Sommavilla \uD83D\uDC7B",
-    "from": "flasomm@gmail.com",
-    "to": "flasomm@gmail.com",
     "smtp_host": "smtp.gmail.com",
     "smtp_port": 5984,
     "smtp_secure": false
