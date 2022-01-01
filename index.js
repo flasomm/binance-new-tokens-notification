@@ -8,7 +8,9 @@ const BINANCE_NEW_CRYPTO_LISTING_URL = 'https://www.binance.com/en/support/annou
   try {
     const scrapedList = await crawlUrl(BINANCE_NEW_CRYPTO_LISTING_URL);
     const newsList = getListing(scrapedList);
-    await sendEmail(newsList);
+    if (newsList.length) {
+      await sendEmail(newsList);
+    }
 
     console.info(`Found new cryptos`, newsList);
 
